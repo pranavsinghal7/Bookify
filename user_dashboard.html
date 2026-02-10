@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Bookify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Bookify</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h2>Welcome,Pranav <span id="usernameDisplay"></span></h2>
+            <div class="book-list">
+                <h3>Your Rented Books</h3>
+                <div class="books">
+                    <div class="book">
+                        <img src="book1.jpg" alt="Book 1">
+                        <h3>IKIGAI : The Japanese secret to a long and happy life</h3>
+                        <p>Status: Rented</p>
+                    </div>
+                    <div class="book">
+                        <img src="book2.jpg" alt="Book 2">
+                        <h3>The 48 laws of Power</h3>
+                        <p>Status: Rented</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="logout()">Logout</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Bookify. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
